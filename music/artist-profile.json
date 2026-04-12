@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "name": "",
+  "genre": "",
+  "country": "",
+  "pro": "",
+  "publishing_admin": "",
+  "distributor": "",
+  "daw": "",
+  "platforms": {
+    "dsps": [],
+    "socials": [],
+    "merch": [],
+    "fanbase": []
+  },
+  "team_size": "",
+  "hours_per_week_non_music": "",
+  "explain_simply": true,
+  "active_release": {
+    "title": "",
+    "type": "",
+    "release_date": "",
+    "presave_url": ""
+  },
+  "active_goals": [],
+  "shows": [],
+  "collaborators": [],
+  "active_collaborations": [],
+  "catalog": [],
+  "press_contacts": [],
+  "sync_catalog": [],
+  "creative_log": [],
+  "identity": {
+    "references": [],
+    "mood_words": [],
+    "visual_world": "",
+    "audience": "",
+    "camera_comfort": "",
+    "tone_of_voice": "",
+    "archetype": "",
+    "platform_fit": {},
+    "do_list": [],
+    "dont_list": [],
+    "links": {}
+  },
+  "sustainability": {
+    "pace": "",
+    "energy_level": "",
+    "last_break": "",
+    "burnout_signals": []
+  },
+  "offline_queue": [],
+  "onboarding_complete": false,
+  "identity_complete": false,
+  "updated_at": "",
+  "last_archive": ""
+}

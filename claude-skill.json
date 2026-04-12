@@ -1,0 +1,70 @@
+{
+  "name": "music-artist-os",
+  "version": "1.1.0",
+  "description": "Complete career operating system for independent music artists",
+  "author": "gonzalo",
+  "license": "MIT",
+  "repository": "https://github.com/gonzalo/music-artist-os",
+  "skills": [
+    {
+      "name": "music",
+      "path": "music/SKILL.md",
+      "description": "Main orchestrator — routes to 17 specialized sub-skills"
+    }
+  ],
+  "sub_skills": [
+    "music-quick-start",
+    "music-weekly-review",
+    "music-content",
+    "music-releases",
+    "music-finances",
+    "music-live",
+    "music-sync",
+    "music-merch",
+    "music-press",
+    "music-fans",
+    "music-analytics",
+    "music-identity",
+    "music-session-log",
+    "music-collabs",
+    "music-comms",
+    "music-legal",
+    "music-sustainability"
+  ],
+  "agents": [
+    "audit-royalties",
+    "audit-content",
+    "audit-release",
+    "audit-catalog",
+    "audit-press"
+  ],
+  "references": [
+    "music/references/identity.md",
+    "music/references/memory.md",
+    "music/references/project.md",
+    "music/references/publishing.md",
+    "music/references/platforms.md"
+  ],
+  "profile": "music/artist-profile.json",
+  "install": {
+    "unix": "install.sh",
+    "windows": "install.ps1"
+  },
+  "uninstall": {
+    "unix": "uninstall.sh",
+    "windows": "uninstall.ps1"
+  },
+  "mcp_optional": ["gmail", "gcal", "gdrive"],
+  "keywords": [
+    "music",
+    "artist",
+    "independent",
+    "career",
+    "releases",
+    "royalties",
+    "content",
+    "sync",
+    "press",
+    "live-shows"
+  ]
+}
