@@ -7,7 +7,7 @@ set -euo pipefail
 main() {
     SKILL_DIR="${HOME}/.claude/skills/music"
     AGENT_DIR="${HOME}/.claude/agents"
-    REPO_URL="https://github.com/gonzalo/music-artist-os"
+    REPO_URL="https://github.com/0xgonzalo/music-artist-os"
 
     UPDATE_MODE=false
     for arg in "$@"; do

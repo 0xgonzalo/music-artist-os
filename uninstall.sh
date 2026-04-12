@@ -55,7 +55,7 @@ main() {
     echo ""
     echo "✓ Music Artist OS uninstalled."
     echo ""
-    echo "  To reinstall: curl -fsSL https://raw.githubusercontent.com/gonzalo/music-artist-os/main/install.sh | bash"
+    echo "  To reinstall: curl -fsSL https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/install.sh | bash"
 }
 
 main "$@"

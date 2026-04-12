@@ -6,7 +6,7 @@ $ErrorActionPreference = "Stop"
 
 $SkillDir = "$env:USERPROFILE\.claude\skills\music"
 $AgentDir = "$env:USERPROFILE\.claude\agents"
-$RepoUrl = "https://github.com/gonzalo/music-artist-os"
+$RepoUrl = "https://github.com/0xgonzalo/music-artist-os"
 
 Write-Host ""
 Write-Host "════════════════════════════════════════" -ForegroundColor Cyan

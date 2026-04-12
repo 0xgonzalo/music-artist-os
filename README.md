@@ -10,25 +10,25 @@ Complete career operating system for independent music artists. 17 sub-skills, 5
 ### Claude Code (Recommended)
 
 ```
-claude install gonzalo/music-artist-os
+claude install 0xgonzalo/music-artist-os
 ```
 
 ### One-Command Install (Unix/macOS/Linux)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gonzalo/music-artist-os/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/install.sh | bash
 ```
 
 ### One-Command Install (Windows PowerShell)
 
 ```powershell
-irm https://raw.githubusercontent.com/gonzalo/music-artist-os/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/install.ps1 | iex
 ```
 
 ### Manual Install
 
 ```bash
-git clone https://github.com/gonzalo/music-artist-os.git
+git clone https://github.com/0xgonzalo/music-artist-os.git
 cd music-artist-os
 ./install.sh          # Unix/macOS/Linux
 ```
@@ -41,10 +41,10 @@ cd music-artist-os
 
 ```bash
 # Unix/macOS/Linux
-curl -fsSL https://raw.githubusercontent.com/gonzalo/music-artist-os/main/install.sh | bash -s -- --update
+curl -fsSL https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/install.sh | bash -s -- --update
 
 # Windows PowerShell
-irm https://raw.githubusercontent.com/gonzalo/music-artist-os/main/install.ps1 | iex -Update
+irm https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/install.ps1 | iex -Update
 ```
 
 Your artist profile is preserved during updates. New schema fields are added automatically on next session.
@@ -250,13 +250,13 @@ If an MCP is unavailable, Claude outputs content as text you can copy.
 ### Unix/macOS/Linux
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gonzalo/music-artist-os/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/uninstall.sh | bash
 ```
 
 ### Windows PowerShell
 
 ```powershell
-irm https://raw.githubusercontent.com/gonzalo/music-artist-os/main/uninstall.ps1 | iex
+irm https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/uninstall.ps1 | iex
 ```
 
 The uninstaller offers to backup your artist profile before removing.
@@ -267,4 +267,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-Built for Claude Code by [@gonzalo](https://github.com/gonzalo)
+Built for Claude Code by [@0xgonzalo](https://github.com/0xgonzalo)

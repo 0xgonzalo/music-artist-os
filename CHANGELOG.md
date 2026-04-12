@@ -14,7 +14,7 @@
 - Profile archiving system — arrays are archived when they exceed thresholds to prevent unbounded growth
 - Fallback instructions for all 5 audit agents when web search is unavailable
 - `claude-skill.json` manifest for Claude Code marketplace integration
-- `claude install gonzalo/music-artist-os` install method in README
+- `claude install 0xgonzalo/music-artist-os` install method in README
 - Archive directory (`~/.claude/skills/music/archive/`) created during install
 
 ### Removed
