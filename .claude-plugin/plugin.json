@@ -1,0 +1,27 @@
+{
+  "name": "music-artist-os",
+  "version": "1.1.0",
+  "description": "Complete career operating system for independent music artists — releases, royalties, content, sync, press, live shows, merch, fans, analytics, and more",
+  "author": {
+    "name": "0xgonzalo",
+    "url": "https://github.com/0xgonzalo"
+  },
+  "repository": "https://github.com/0xgonzalo/music-artist-os",
+  "license": "MIT",
+  "homepage": "https://github.com/0xgonzalo/music-artist-os",
+  "keywords": [
+    "music",
+    "artist",
+    "independent",
+    "career",
+    "releases",
+    "royalties",
+    "content",
+    "sync",
+    "press",
+    "live-shows",
+    "merch",
+    "fans",
+    "analytics"
+  ]
+}

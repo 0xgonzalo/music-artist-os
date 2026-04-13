@@ -1,0 +1,19 @@
+{
+  "name": "0xgonzalo",
+  "owner": {
+    "name": "0xgonzalo",
+    "url": "https://github.com/0xgonzalo"
+  },
+  "metadata": {
+    "description": "Plugins by 0xgonzalo",
+    "homepage": "https://github.com/0xgonzalo/music-artist-os"
+  },
+  "plugins": [
+    {
+      "name": "music-artist-os",
+      "version": "1.1.0",
+      "source": ".",
+      "description": "Complete career operating system for independent music artists — releases, royalties, content, sync, press, live shows, merch, fans, analytics, and more"
+    }
+  ]
+}

@@ -7,21 +7,20 @@ Complete career operating system for independent music artists. 17 sub-skills, 5
 
 ## Installation
 
-### Claude Code (Recommended)
-
-```
-claude install 0xgonzalo/music-artist-os
-```
-
-### One-Command Install (Unix/macOS/Linux)
+### Claude Code Marketplace (Recommended)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/install.sh | bash
+claude marketplace add 0xgonzalo https://github.com/0xgonzalo/music-artist-os
+claude plugin install music-artist-os@0xgonzalo
 ```
 
-### One-Command Install (Windows PowerShell)
+### Shell Script (Alternative)
 
-```powershell
+```bash
+# Unix/macOS/Linux
+curl -fsSL https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/install.sh | bash
+
+# Windows PowerShell
 irm https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/install.ps1 | iex
 ```
 
@@ -33,18 +32,14 @@ cd music-artist-os
 ./install.sh          # Unix/macOS/Linux
 ```
 
-```powershell
-.\install.ps1         # Windows PowerShell
-```
-
 ## Update
 
 ```bash
-# Unix/macOS/Linux
-curl -fsSL https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/install.sh | bash -s -- --update
+# Marketplace
+claude plugin install music-artist-os@0xgonzalo
 
-# Windows PowerShell
-irm https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/install.ps1 | iex -Update
+# Shell script
+curl -fsSL https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/install.sh | bash -s -- --update
 ```
 
 Your artist profile is preserved during updates. New schema fields are added automatically on next session.
@@ -161,10 +156,18 @@ Full content strategy for artists who don't want to show their face. DAW footage
 ## Architecture
 
 ```
-~/.claude/skills/music/              # Main orchestrator
-~/.claude/skills/music/references/   # 5 RAG reference files
-~/.claude/skills/music-*/            # 17 sub-skills
-~/.claude/agents/audit-*.md          # 5 parallel audit agents
+.claude-plugin/
+  plugin.json                        # Plugin manifest
+  marketplace.json                   # Marketplace registry
+skills/
+  music-artist-os/                   # Main orchestrator
+    SKILL.md
+    references/                      # 5 RAG reference files
+    artist-profile.json              # Profile template
+  music-*/                           # 17 sub-skills
+    SKILL.md
+agents/
+  audit-*.md                         # 5 parallel audit agents
 ```
 
 ### How It Works
@@ -247,19 +250,13 @@ If an MCP is unavailable, Claude outputs content as text you can copy.
 
 ## Uninstall
 
-### Unix/macOS/Linux
-
 ```bash
+# Marketplace
+claude plugin uninstall music-artist-os@0xgonzalo
+
+# Shell script
 curl -fsSL https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/uninstall.sh | bash
 ```
-
-### Windows PowerShell
-
-```powershell
-irm https://raw.githubusercontent.com/0xgonzalo/music-artist-os/main/uninstall.ps1 | iex
-```
-
-The uninstaller offers to backup your artist profile before removing.
 
 ## License
 
