@@ -12,7 +12,7 @@
     {
       "name": "music-artist-os",
       "version": "1.1.0",
-      "source": ".",
+      "source": "./plugin",
       "description": "Complete career operating system for independent music artists — releases, royalties, content, sync, press, live shows, merch, fans, analytics, and more"
     }
   ]
