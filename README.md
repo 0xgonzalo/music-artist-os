@@ -1,5 +1,7 @@
 # Music Artist OS
 
+[![Skillselion Top 25](https://skillselion.com/badge/marketplace/0xgonzalo/music-artist-os.svg?award=1)](https://skillselion.com/marketplace/0xgonzalo/music-artist-os)
+
 Complete career operating system for independent music artists. 17 sub-skills, 5 parallel audit agents, and persistent artist identity across releases, content, finances, live shows, sync licensing, merch, press, fans, analytics, collaborations, and creative sessions.
 
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blue)](https://claude.ai/claude-code)
